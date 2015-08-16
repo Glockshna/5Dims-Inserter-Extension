@@ -36,11 +36,7 @@ data:extend
 		{
 			{
 				type = "unlock-recipe",
-				recipe = "5d-inserter-speed2-smart-left-90d"
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "5d-inserter-speed2-smart-right-90d"
+				recipe = "5d-inserter-speed3-smart"
 			},
 		},
 		prerequisites = {"inserters-3", "electronics"},

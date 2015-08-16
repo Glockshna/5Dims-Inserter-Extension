@@ -102,21 +102,21 @@ data:extend({
     },
     hand_base_picture =
     {
-      filename = "__base__/graphics/entity/basic-inserter/basic-inserter-hand-base.png",
+      filename = "__base__/graphics/entity/smart-inserter/smart-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34
     },
     hand_closed_picture =
     {
-      filename = "__5dim_automatization__/graphics/icon/hand_closed_far.png",
+      filename = "__base__/graphics/entity/smart-inserter/smart-inserter-hand-closed.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_picture =
     {
-      filename = "__5dim_automatization__/graphics/icon/hand_open_far.png",
+      filename = "__base__/graphics/entity/smart-inserter/smart-inserter-hand-open.png",
       priority = "extra-high",
       width = 18,
       height = 41
@@ -144,12 +144,12 @@ data:extend({
     },
     platform_picture =
     {
-      sheet =
+      sheet=
       {
-        filename = "__base__/graphics/entity/fast-inserter/fast-inserter-platform.png",
+        filename = "__base__/graphics/entity/smart-inserter/smart-inserter-platform.png",
         priority = "extra-high",
         width = 46,
-        height = 46,
+        height = 46
       }
     },
   },

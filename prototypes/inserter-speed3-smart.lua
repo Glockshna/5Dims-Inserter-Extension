@@ -5,8 +5,8 @@ data:extend({
     name = "5d-inserter-speed3-smart",
     icon = "__5dim_inserter_extension__/graphics/icon/icon_speed3_smart.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "inserters-speed3",
-    order = "a",
+    subgroup = "inserters-smart",
+    order = "z",
     place_result = "5d-inserter-speed3-smart",
     stack_size = 50
   },
@@ -19,7 +19,7 @@ data:extend({
     ingredients =
     {
       {"electronic-circuit", 5},
-      {"fast-inserter", 1}
+      {"smart-inserter", 1}
     },
     result = "5d-inserter-speed3-smart"
   },
@@ -62,6 +62,21 @@ data:extend({
     },
     extension_speed = 0.07,
     fast_replaceable_group = "inserter",
+    programmable = true,
+    filter_count = 5,
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {0, 0},
+        green = {0, 0}
+      },
+      wire =
+      {
+        red = {0, 0},
+        green = {0, 0}
+      }
+    },
     working_sound =
     {
       match_progress_to_activity = true,
@@ -91,21 +106,21 @@ data:extend({
     },
     hand_base_picture =
     {
-      filename = "__base__/graphics/entity/basic-inserter/basic-inserter-hand-base.png",
+      filename = "__base__/graphics/entity/smart-inserter/smart-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
-      height = 33
+      height = 34
     },
     hand_closed_picture =
     {
-      filename = "__5dim_automatization__/graphics/icon/hand_closed_far.png",
+      filename = "__base__/graphics/entity/smart-inserter/smart-inserter-hand-closed.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_picture =
     {
-      filename = "__5dim_automatization__/graphics/icon/hand_open_far.png",
+      filename = "__base__/graphics/entity/smart-inserter/smart-inserter-hand-open.png",
       priority = "extra-high",
       width = 18,
       height = 41
