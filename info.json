@@ -1,0 +1,11 @@
+
+{
+  "name": "5dim_inserter_extension",
+  "version": "0.0.2",
+  "title": "5dim's Mod - Inserter Extension",
+  "author": "Glockshna",
+  "contact": "Glockshna@hotmail.com",
+  "homepage": "",
+  "description": "Extra inserter types for 5dim's mod",
+  "dependencies": ["base >= 0.11.0", "5dim_core >= 0.0.3", "5dim_automatization >= 0.0.9"]
+}
