@@ -19,7 +19,8 @@ data:extend({
     ingredients =
     {
       {"electronic-circuit", 5},
-      {"smart-inserter", 1}
+      {"smart-inserter", 1},
+      {"iron-gear-wheel", 5}
     },
     result = "5d-inserter-speed3-smart"
   },
