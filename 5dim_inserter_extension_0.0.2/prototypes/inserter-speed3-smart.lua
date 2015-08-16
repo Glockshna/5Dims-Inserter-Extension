@@ -65,7 +65,8 @@ data:extend({
     fast_replaceable_group = "inserter",
     programmable = true,
     filter_count = 5,
-    circuit_wire_connection_point =
+    circuit_wire_max_distance = 7.5,
+	circuit_wire_connection_point =
     {
       shadow =
       {
